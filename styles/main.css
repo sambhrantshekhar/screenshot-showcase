@@ -1,0 +1,63 @@
+.master{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 20px;
+  padding: 20px 20px 0 20px
+}
+
+@media (max-width: 1000px){
+  .master{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.shots{
+  padding: 10px 10px 10px 10px;
+  display: inline-flexbox;
+  grid-template-columns: 1fr 2fr;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+}
+.image{
+  width: 100%;
+  border-radius: 5px;       
+}
+.image:hover{
+  cursor: pointer;
+}
+.info{     
+  vertical-align: middle;
+  margin-top: 0px 0px 0px 0px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  color:white;
+}
+.download{
+  
+  text-align: left;
+  display: inline-block;
+}
+.game{
+  
+  display: inline;
+  text-align: right;
+}
+.down_button{
+  color: white;
+  background-color: rgb(71, 105, 173);
+  font-family: Roboto;
+  border-width: 0px;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+}
+.down_button:hover{
+  cursor: pointer;
+}
+.link_dl{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
